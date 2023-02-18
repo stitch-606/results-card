@@ -1,0 +1,201 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+body {
+    background-color: rgb(240, 244, 248);
+
+}
+
+.pearent {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 650px;
+    height: 450px;
+    margin: 100px auto;
+    background-color: white;
+    border-radius: 5%;
+    font-family: "Hanken Grotesk";
+}
+
+@media(max-width:768px) {
+    .pearent {
+        display: grid;
+        grid-template-columns: 100%;
+        width: 100%;
+        height: 100%;
+        padding-bottom: 15px;
+        margin-top: 0;
+        margin-right: auto;
+        margin-left: auto;
+        background-color: white;
+        border-radius: 5%;
+        font-family: "Hanken Grotesk";
+    }
+}
+
+.colored-box {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px 50px;
+    border-radius: 5%;
+    background-image: linear-gradient(0deg, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+
+@media(max-width:768px) {
+    .colored-box {
+        border-top-right-radius: 0;
+        border-top-left-radius: 0;
+    }
+}
+
+.colored-box .cercile {
+    background-image: linear-gradient(180deg, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    line-height: 10px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.colored-box .cercile .result {
+    font-size: 4em;
+    font-weight: bold;
+    margin-top: 80px;
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 50px;
+}
+
+.colored-box .cercile .standerd {
+    margin-top: 0;
+    padding-top: 0;
+    color: hsl(242, 64%, 70%);
+    font-size: 1em;
+}
+
+.colored-box h1 {
+    color: hsl(0, 0%, 100%);
+    font-size: 2rem;
+}
+
+.colored-box p {
+    color: hsl(222, 100%, 92%);
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.colored-box .frist-title {
+    font-size: 21px;
+    margin-bottom: 25px;
+}
+
+
+.summary {
+    display: flex;
+    flex-direction: column;
+    line-height: 50px;
+    padding: 5px 30px;
+}
+
+.summary .second-titel {
+    font-size: 1.5em;
+
+}
+
+.summary img {
+    margin-right: 5px;
+}
+
+.summary .rec {
+    background-color: hsla(0, 47%, 65%, 0.075);
+    display: flex;
+    border-radius: 20px;
+    padding: 0 20px;
+    margin-bottom: 15px;
+}
+
+.summary .rec .special-titel4 {
+    margin: 0;
+    padding: 0;
+    margin-right: 76px;
+    color: hsl(0, 100%, 67%);
+    font-weight: bold;
+}
+
+.summary .mem {
+    background-color: hsla(56, 100%, 78%, 0.26);
+    display: flex;
+    border-radius: 20px;
+    padding: 0 20px;
+    margin-bottom: 15px;
+}
+
+.summary .mem .special-titel3 {
+    margin: 0;
+    padding: 0;
+    margin-right: 78px;
+    color: hsl(39, 100%, 56%);
+    font-weight: bold;
+}
+
+.summary .vrb {
+    background-color: hsla(165, 100%, 94%, 0.473);
+    display: flex;
+    border-radius: 20px;
+    padding: 0 20px;
+    margin-bottom: 15px;
+}
+
+.summary .vrb .special-titel2 {
+    margin: 0;
+    padding: 0;
+    margin-right: 91px;
+    color: hsl(166, 100%, 37%);
+    font-weight: bold;
+}
+
+.summary .vsl {
+    background-color: hsl(233, 100%, 98%);
+    display: flex;
+    border-radius: 20px;
+    padding: 0 20px;
+    margin-bottom: 15px;
+}
+
+.summary .vsl .special-titel1 {
+    margin: 0;
+    padding: 0;
+    margin-right: 97px;
+    color: hsl(234, 85%, 45%);
+    font-weight: bold;
+}
+
+.summary .standerd {
+    margin: 0%;
+    color: hsl(240, 3%, 75%);
+    ;
+}
+
+.normal {
+    margin: 0%;
+    margin-right: 5px;
+    font-weight: bold;
+}
+
+.summary .button {
+    border-radius: 25px;
+    margin-top: 15px;
+    height: 50px;
+    background-color: hsl(224, 30%, 27%);
+    border-style: hidden;
+    color: white;
+}
